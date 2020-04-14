@@ -9,7 +9,7 @@ b.	Second part involved RFM (Recency, Frequency, Monetary) analysis and thereby 
 
 c.	Third part involved market basket analysis to create a recommendation system for the customers.
 
-d.	A small portion involved sentiment analysis using NLP.
+d.	Sentiment analysis using NLP for which Word Embedding Techniques were used with 350 Dimenssions, the model was trained using word2vec which was supported by the Portuguese Lnaguage Library provided by spacy, since the comments were in portugal language. Finally the Satcking classifier along with the Metadata of Transactions Details were used to attain the maxiumu result of 94% accuracy from 60%.
 
 e.	Finally Based on these Segmentation and Recommendations coupled with Geo Location Parameters like Metropolitan Cities, Tourism, Traffic, Population Vs. Floating Population, Purchasing Power of the Population (Per Capita Income), Narrowed down to 2 cities out of 2900 cities to Set up a Pilot Physical store.
 
